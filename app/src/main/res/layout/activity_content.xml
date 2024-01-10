@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#6C6C6C"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <ImageView
+      android:layout_width="match_parent"
+      android:id="@+id/background"
+      android:scaleType="centerCrop"
+      android:layout_height="match_parent"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginTop="20dp"
+      android:orientation="horizontal"
+      android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="复仇者联盟"
+        android:fontFamily="monospace"
+        android:id="@+id/title"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:id="@+id/back"
+      android:text="返回"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/play"
+        android:textColor="@color/white"
+      android:text="播放"/>
+  </LinearLayout>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:textColor="#EDE1E1E1"
+      android:id="@+id/content"
+      android:layout_marginTop="90dp"
+      android:textSize="12sp"
+      android:fontFamily="sans-serif"
+      android:layout_marginRight="20dp"
+     android:text="导演: 冯小刚\n编剧: 冯小刚 / 张耀之\n主演: 葛优 / 舒淇 / 范伟 / 姚晨 / 李诚儒 / 更多...\n类型: 喜剧 / 爱情 / 科幻\n制片国家/地区: 中国大陆\n语言: 汉语普通话\n上映日期: 2023-12-30(中国大陆)\n片长: 119分钟
+秦奋（葛优 饰）与梁笑笑（舒淇 饰），老狐狸与比目鱼，爱情故事万千，取其一对展开。两人结婚十年，梁笑笑找到心之所向，开始四海为家。
+　　一别之后，两地相悬。以为是三四月，又谁知五六七八九十年。"/>
+</RelativeLayout>
+</LinearLayout>
